@@ -1,0 +1,1 @@
+(()=>{"use strict";new class{constructor(t){this.title=document.querySelectorAll(t),this.activeClassName="is-active",this.openClassName="is-open"}init(){for(let t=0;t<this.title.length;t++){let e=this.title[t],s=e.nextElementSibling;e.addEventListener("click",(()=>{e.classList.toggle(this.activeClassName),s.classList.toggle(this.openClassName)}))}}}(".js-accordion").init()})();
