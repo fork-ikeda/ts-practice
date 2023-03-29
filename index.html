@@ -11,7 +11,8 @@
 
 <body>
   <div class="container">
-    <h1>アコーディオン</h1>
+    <h1>TypeScript練習</h1>
+    <h2>アコーディオン</h2>
     <ul class="accordion-container">
       <li class="list"> 
         <div class="list-btn js-accordion">menu1</div>
@@ -38,6 +39,19 @@
         </ul>
       </li>
     </ul>
+    <h2>タブスイッチ</h2>
+    <div class="tab-container js-tab-switch">
+      <ul class="tab-group">
+        <li class="tab js-tab-switch__list is-active">tabA</li>
+        <li class="tab js-tab-switch__list ">tabB</li>
+        <li class="tab js-tab-switch__list ">tabC</li>
+      </ul>
+      <div class="tab-contents">
+        <div class="tab-contents__item js-tab-switch__content is-show">tabA</div>
+        <div class="tab-contents__item js-tab-switch__content">tabB</div>
+        <div class="tab-contents__item js-tab-switch__content">tabC</div>
+      </div>
+    </div>
   </div>
   <script type="text/javascript" src="./dist/bundle.js"></script>
 </body>

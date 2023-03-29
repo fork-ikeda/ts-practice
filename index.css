@@ -28,7 +28,7 @@ ul, li {
   border-top: 1px solid #fff;
 }
 
-ul {
+.accordion-container {
   font-size: 20px;
   background-color: #35924A;
   color: #fff;
@@ -98,3 +98,41 @@ ul {
   right: 30px;
 }
 
+/* tabSwitch */
+
+.tab-group {
+  display: flex;
+}
+
+.tab {
+  flex: 1;
+  background-color: #c6ebbb;
+  height: 50px;
+  text-align: center;
+  padding-top: 25px;
+  cursor: pointer;
+  border-right: #48bd5f 1px solid;
+}
+
+.tab:last-child {
+  border-right: none;
+}
+
+.is-active {
+  background-color: #48bd5f;
+  color: #fff;
+}
+
+.tab-contents {
+  background-color: #fff;
+  height: 400px;
+  padding: 30px;
+}
+
+.tab-contents__item {
+  display: none;
+}
+
+.is-show {
+  display: block;
+}
